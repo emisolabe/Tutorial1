@@ -4,7 +4,7 @@ public class Student {
 	int id;
 	String name;
 	
-	public Student(int id, int name) {
+	public Student(int id, String name) {
 		this.id = id;
 		this.name = name;
 	}
@@ -13,7 +13,7 @@ public class Student {
 		return id;
 	}
 	
-	public int getName() {
+	public String getName() {
 		return name;
 	}
 }
